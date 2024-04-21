@@ -26,7 +26,7 @@
   --switch-bg-url: url(./assets/sun.svg);
   
 }
-.txt-center{
+.txt{
   text-align: left;
   display: inline-block;
 }
