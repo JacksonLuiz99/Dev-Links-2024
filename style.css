@@ -28,6 +28,7 @@
 }
 .txt-center{
   text-align: center;
+  display: inline-block;
 }
 
 .welcome-container {
