@@ -24,11 +24,13 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/sun.svg);
-  
+
 }
-.txt-center{
+
+.txt-center {
   text-align: center;
-  display: inline-block;
+  display: block;
+
 }
 
 .welcome-container {
@@ -137,20 +139,22 @@ footer {
 }
 
 /*animação dos botões*/
-@keyframes slide-in{
-  from{
+@keyframes slide-in {
+  from {
     left: 0;
   }
-  to{
+
+  to {
     left: 50%;
   }
 }
 
-@keyframes slide-back{
-  from{
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-  to{
+
+  to {
     left: 0;
   }
 }
